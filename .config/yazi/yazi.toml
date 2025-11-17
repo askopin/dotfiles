@@ -1,0 +1,5 @@
+[open]
+prepend_rules = [
+	{ name = "*.xcodeproj/", use = "open"},
+    { name = "*.xcworkspace/", use = "open"},
+]

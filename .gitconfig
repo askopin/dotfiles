@@ -1,0 +1,15 @@
+[core]
+	editor = code --wait
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[user]
+	name = Anton Skopin
+	email = askopin@gmail.com
+[mergetool "mergepbx"]
+	cmd = mergepbx "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
+[credential]
+	helper = osxkeychain
+[pull]
+	ff = only
