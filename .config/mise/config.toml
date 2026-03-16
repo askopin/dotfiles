@@ -1,8 +1,9 @@
 [tools]
 ruby = "3.2"
 python = "3.13"
-node = "18"
+node = "25"
 uv = "latest"
+tuist = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["ruby"]

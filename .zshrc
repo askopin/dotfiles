@@ -28,7 +28,8 @@ eval "$(oh-my-posh init zsh --config ${HOME}/.oh-my-posh-theme.json)"
 
 
 # zoxide init and override cd with it
-eval "$(zoxide init zsh --cmd cd)"
+# disabled due to claude issue
+# eval "$(zoxide init zsh --cmd cd)"
 
 ## fzf
 source <(fzf --zsh)
